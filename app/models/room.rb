@@ -1,3 +1,3 @@
 class Room < ApplicationRecord
-    hash_many :message
+    has_many :message
 end
