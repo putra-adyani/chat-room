@@ -1,5 +1,5 @@
 .chat-room{
-    height: 100vh;
+    height: 100%;
     overflow-y: hidden;
     .message{
         min-height: 59px;
@@ -27,7 +27,7 @@
         }
     }
     .chat-box{
-        position: absolute;
+        position: fixed;
         bottom: 0;
         padding: 20px;
         width: calc(80% - 20px);
